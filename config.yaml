@@ -1,0 +1,5 @@
+# Configuration file for sesame-exporter
+# port: 8000
+# sesame_uuids:
+#   FrontDoor: "UUID-1"
+#   BackDoor: "UUID-2"

@@ -1,0 +1,6 @@
+# Sample prometheus.yaml for sesame-exporter
+scrape_configs:
+  - job_name: sesame
+    static_configs:
+      - targets:
+        - sesame-exporter:8000
