@@ -1,8 +1,7 @@
 #!/bin/bash
 
 # Install the package and its dependencies
-python3 -m pip install --no-cache-dir --upgrade pip
-python3 -m pip install --no-cache-dir .
+uv pip install --system .
 
 # Run the exporter
 exec sesame-exporter "$@"

@@ -84,19 +84,18 @@ scrape_configs:
 
 Install dependencies:
 ```bash
-pip install -r requirements-dev.txt
-pip install -e .
+uv sync --all-extras
 pre-commit install
 ```
 
 Run tests:
 ```bash
-pytest
+uv run pytest
 ```
 
 Run linters (via pre-commit):
 ```bash
-pre-commit run --all-files
+uv run pre-commit run --all-files
 ```
 
 ## License
